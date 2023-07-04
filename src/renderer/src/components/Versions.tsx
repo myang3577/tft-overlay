@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export function Versions(): JSX.Element {
+export const Versions = (): JSX.Element => {
   const [versions] = useState(window.electron.process.versions);
 
   return (
@@ -11,4 +11,4 @@ export function Versions(): JSX.Element {
       <li className="v8-version">V8 v{versions.v8}</li>
     </ul>
   );
-}
+};
