@@ -1,7 +1,7 @@
 import icons from "./assets/icons.svg";
 import { Versions } from "./components/Versions";
 
-export function App(): JSX.Element {
+export const App = (): JSX.Element => {
   return (
     <div className="container">
       <Versions></Versions>
@@ -122,4 +122,4 @@ export function App(): JSX.Element {
       </div>
     </div>
   );
-}
+};

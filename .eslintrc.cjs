@@ -31,9 +31,9 @@ module.exports = {
     "@typescript-eslint/no-explicit-any": "error",
     "@typescript-eslint/no-non-null-assertion": "off",
     "@typescript-eslint/no-var-requires": "off",
-    "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
     "import/no-default-export": "error",
+    "no-restricted-syntax": ["error", "FunctionExpression", "FunctionDeclaration"],
   },
   overrides: [
     {
